@@ -2232,6 +2232,11 @@ balanced-match@^1.0.0:
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
   integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
 
+baraja-js@^0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/baraja-js/-/baraja-js-0.0.11.tgz#07543c0f5b5f8561a9e7900ac7310e38a61ad6ec"
+  integrity sha512-fNfoaL+3dz1213lKPOTSq8zTy2/qr1G1UH0L/wMrF8M7CepcVFCHxEPipu7m+JFgNkvhHbuvzdLr1wHy8fUqog==
+
 base64-js@^1.0.2:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.3.1.tgz#58ece8cb75dd07e71ed08c736abc5fac4dbf8df1"
