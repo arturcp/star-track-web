@@ -2,7 +2,6 @@
 
 Help Carmen, Sam or Diego to understand the Universe and find the truth out there.
 
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
