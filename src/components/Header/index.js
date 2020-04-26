@@ -3,7 +3,7 @@ import './styles.css';
 
 const Header = () => (
   <header id="main-header">
-    Header
+    Star Track
   </header>
 );
 

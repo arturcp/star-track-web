@@ -58,7 +58,7 @@ export default class Main extends Component {
           ))}
         </ul>
 
-        <Link to="/about">Sobre</Link>
+        {/*<Link to="/about">Sobre</Link>*/}
       </div>
     )
   }
