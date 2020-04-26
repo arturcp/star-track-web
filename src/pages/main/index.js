@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 import api from '../../services/api';
 import './styles.css';
 
@@ -20,16 +21,20 @@ export default class Main extends Component {
     const { characters } = this.state;
 
     return (
-      <div className="characters-list">
-        {characters.map(character => (
-          <article key={character.id}>
-            <h2>{character.name}</h2>
+      <div>
+        <div className="characters-list">
+          {characters.map(character => (
+            <article key={character.id}>
+              <h2>{character.name}</h2>
 
-            <div className="image-container">
-              <img src={character.image_url} />
-            </div>
-          </article>
-        ))}
+              <div className="image-container">
+                <img src={character.image_url} alt={character.name}/>
+              </div>
+            </article>
+          ))}
+        </div>
+
+        <Link to="/about">Sobre</Link>
       </div>
     )
   }
